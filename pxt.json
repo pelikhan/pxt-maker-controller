@@ -6,9 +6,6 @@
         "core": "*",
         "keyboard": "*"
     },
-    "testDependencies": {
-        "circuit-playground": "*"
-    },
     "files": [
         "README.md",
         "main.ts",
@@ -17,7 +14,12 @@
     "testFiles": [
         "test.ts"
     ],
+    "testDependencies": {
+        "circuit-playground": "*"
+    },
     "public": false,
+    "supportedTargets": [
+        "adafruit"
+    ],
     "preferredEditor": "tsprj"
 }
-
